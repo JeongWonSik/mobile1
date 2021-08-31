@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>모바일</title>
+    <meta name="viewport" content="width=divice-width">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <header id="header">
+        <h1>Mobile</h1>
+        <a href="#" class="btn">button</a>
+        <a href="#" class="menu1">메뉴</a>
+    </header>
+        <nav id="toggleGnb">
+            <ul>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+            </ul>
+        </nav>
+        <script>
+            $("#toggleGnb").hide();
+            $(".menu1").on('click', function(){
+                $("#toggleGnb").slideToggle();
+            })
+        </script>
+        <nav id="topGnb">
+            <ul>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+            </ul>
+        </nav>
+        <nav id="bottomGnb">
+            <ul>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+            </ul>
+        </nav>
+    <section id="content">
+        <header id="contentHeader">
+        <h2>Lorem ipsum</h2>
+       <time datetime="2021-08-31">2013-10-10 birthday</time>
+    </header>
+        <p>It is a long estaklished fact that a reader will be distracted by the readable</p>
+        <p>It is a long estaklished fact that a reader will be distracted by the readable</p>
+        <p>It is a long estaklished fact that a reader will be distracted by the readable</p>
+        </section>
+        <footer id="fotter">
+            <address>HTML5+CSS3 Basic</address>
+            <small>Website Layout Basic</small>
+        </footer>
+</body>
+</html>
